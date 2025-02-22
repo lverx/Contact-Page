@@ -7,6 +7,21 @@ body {
     overflow: hidden; /* Prevent scrolling while the modal is active */
 }
 
+.alert-banner {
+    background-color: #FFD700; /* Bright yellow */
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it stays on top of everything */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    font-size: 1.1em;
+}
+
 /* Modal Styles */
 .warning-modal {
     position: fixed;
