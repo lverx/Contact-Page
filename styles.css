@@ -8,7 +8,7 @@ body {
 }
 
 .alert-banner {
-    background-color: #FFD700; /* Bright yellow */
+    background-color: hotpink;
     color: black;
     text-align: center;
     font-weight: bold;
@@ -37,7 +37,7 @@ body {
 }
 
 .warning-content {
-    background: white;
+    background: hotpink;
     padding: 30px;
     border-radius: 10px;
     text-align: center;
